@@ -6,6 +6,8 @@
 
 ### **数据结构与算法**
 
+- [大话数据结构](https://github.com/xlzjy/Notes/tree/main/Algorithm/C/PlayWithDataStructure)
+
 ### **操作系统**
 
 ### **Java**
@@ -13,8 +15,6 @@
 ### **Java Web**
 
 ### **C**
-
-- [大话数据结构](https://github.com/xlzjy/Notes/tree/main/Algorithm/C/PlayWithDataStructure)
 
 ### **Go**
 
