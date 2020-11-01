@@ -297,8 +297,9 @@ public class Application {
     - **低耦合**：仅暴露少量的方法给外部使用；
 
 - **封装（数据的隐藏）**
-  - 通常，应禁止直接访问一个对象中数据的实际表示，而应通过操作接口来访问，这称为信息隐藏；
-
+  
+- 通常，应禁止直接访问一个对象中数据的实际表示，而应通过操作接口来访问，这称为信息隐藏；
+  
 - **<u>属性私有，`get/set`方法</u>**
 
 - ##### 封装的意义
@@ -518,10 +519,10 @@ public class Application {
 
 - **方法重写**
   - **重写：**需要有继承关系，子类重写父类的方法！
-    1. 方法名必须相同
-    2. 参数列表必须相同
-    3. 修饰符：范围可以扩大但不能缩小：`public > protected > default > private`
-    4. 抛出的异常：范围，可以被缩小，但不能扩大：`Exception`(大) -> `ClassNotFoundException`(小) 
+    - 方法名必须相同
+    - 参数列表必须相同
+    - 修饰符：范围可以扩大但不能缩小：`public > protected > default > private`
+    - 抛出的异常：范围，可以被缩小，但不能扩大：`Exception`(大) -> `ClassNotFoundException`(小) 
   - **重写**：子类的方法和父类必须一致，只是方法体不同！
   - **为什么需要重写**：
     - 父类的功能，子类不一定需要，或者不一定满足！
@@ -982,15 +983,16 @@ public class UserServiceImpl implements UserInterface, TimeService {
 ```
 
 - **接口作用**
-  1. 约束；
-  2. 定义一些方法，让不同的人实现；
-  3. 接口中的方法都是`public abstract`，且没有方法体；
-  4. 接口中的常量是`public static final`；
-  5. 接口不能被实例化，因为接口中没有构造方法；
-  6. `implements`可以实现多个接口；
-  7. 实现接口必须要重写接口中的所有方法；
-
-
+  
+  - 约束；
+  - 定义一些方法，让不同的人实现；
+  - 接口中的方法都是`public abstract`，且没有方法体；
+  - 接口中的常量是`public static final`；
+  - 接口不能被实例化，因为接口中没有构造方法；
+  - `implements`可以实现多个接口；
+  - 实现接口必须要重写接口中的所有方法；
+  
+  
 
 ## 内部类
 
