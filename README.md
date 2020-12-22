@@ -4,4 +4,4 @@
 
 ------
 
-Java
+1. [Java基础](<Java/CrazyJava/README.md>)
